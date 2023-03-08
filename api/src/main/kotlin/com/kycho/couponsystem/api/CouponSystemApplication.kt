@@ -1,4 +1,4 @@
-package com.kycho.couponsystem
+package com.kycho.couponsystem.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
