@@ -1,1 +1,8 @@
+spring:
+  profiles:
+    include:
+      - domain
+      - infra-rds
 
+  datasource.using:
+    coupondb: true

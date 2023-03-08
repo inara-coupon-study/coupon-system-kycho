@@ -1,1 +1,16 @@
+spring:
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
 
+  datasource:
+    coupondb:
+      jdbc-url: jdbc:postgresql://localhost:54321/coupon
+      username: coupon
+      password: coupon
+      driver-class-name: org.postgresql.Driver

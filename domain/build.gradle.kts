@@ -7,6 +7,10 @@ tasks.getByName("jar") {
 	enabled = true
 }
 
+plugins {
+	kotlin("plugin.jpa") version "1.6.21"
+}
+
 dependencies {
 	implementation(project(":infra-rds"))
 
